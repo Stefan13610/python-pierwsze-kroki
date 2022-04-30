@@ -1,0 +1,41 @@
+Gamplay:
+Pola typu
+-łąka
+-las
+-mrowisko
+-ropa
+-teren skażony promieniowaniem
+-teren skażony *
+-woda
+okolice tych pól /opcionalnie ich kombinacje
+
+rozwój cech:
+-cechy środowsikowe (symbiozy i odporności )
+-szybkość rozwoju ogólnego + odporność/symbioza, zwiększa rozwuj na konkretnym typie pola od kar po premie w zależności od cech środowiskowych
+-atak +(opcionalnie ataki specialne typu tworzenie pul skażonych, jałowych)
+-obrona - poziom redukcji otrzymywanych obrażń redukcja = poziom_pola * techologia_obrony (maks 50% ???)
+
+Przycisk automatyczny rozwuj - automatyczni sadzi nowe sadzonki na możliwych polach, 
+
+Każde pole grzybni może wykonać jedną akcje w tuże 
+-Zasadzić nową grzybnie na sąsiednim polu
+-zaatakować sąsiednie pole
+-ziwiększyć własny poziom (poziom rośnie samoistnie ale można doinwestować konkretne pole, cena zalezy od aktualnego poziomu, rodzaju pola i technologi)
+
+Każda akcja ma swój koszt
+
+Atak na pole to obniżenie jego poziomu o jakąś wartość atak = poziom_pola*poziom_cechy_ataku
+							obrona = poziom_pola * techologia_obrony (redukcja obrażen o ich procent)
+
+technologia atak na max_poziomie odblokowuje możliwość ataku o 2 pola?
+
+Wizualnie:
+-Tekstury pul (dodatkowa bitmapa?)
+-Poziomy technologi:(2,3,6) żeby łatwiej można było zrobić to graficznie, technologia to szesciokąt.  Liczba złotych kresek w ramce to poziom technologi ??
+-Podświetlenie pól na których można podiąć akcje 
+
+
+Ogólne
+-Wczytywanie tekstury z pliku
+-wczytywanie mapy z pliku
+-kurde w zasadzie wczytywanie wsyztskiego z pliku ;/
